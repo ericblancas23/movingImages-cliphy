@@ -6,7 +6,7 @@ const ACCESS_TOKEN_KEY = 'access_token';
 
 const CLIENT_ID = 'OBwihfb49q3jCVoD5CFS0kzPuTLKB313';
 const CLIENT_DOMAIN = 'ericdb.auth0.com';
-const REDIRECT = 'http://localhost:3002/callback';
+const REDIRECT = 'https://movingimages.herokuapp.com/callback';
 const SCOPE = 'full:access';
 const AUDIENCE = 'https://ericdb.auth0.com/userinfo';
 
