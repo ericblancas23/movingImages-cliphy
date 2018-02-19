@@ -4,11 +4,11 @@ import auth0 from 'auth0-js';
 const ID_TOKEN_KEY = 'id_token';
 const ACCESS_TOKEN_KEY = 'access_token';
 
-const CLIENT_ID = 'NMb93xcWlImYn4WTottBA94bpZewIyCQ';
-const CLIENT_DOMAIN = 'chilas.eu.auth0.com';
-const REDIRECT = 'https://cliphy.herokuapp.com/callback';
+const CLIENT_ID = 'OBwihfb49q3jCVoD5CFS0kzPuTLKB313';
+const CLIENT_DOMAIN = 'ericdb.auth0.com';
+const REDIRECT = 'http://localhost:3002/callback';
 const SCOPE = 'full:access';
-const AUDIENCE = 'https://chilas.eu.auth0.com/userinfo';
+const AUDIENCE = 'https://ericdb.auth0.com/userinfo';
 
 var auth = new auth0.WebAuth({
     clientID: CLIENT_ID,
